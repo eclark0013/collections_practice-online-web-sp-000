@@ -37,7 +37,11 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.scan(/a/)
+  final=[]
+  for element in array
+    final<<element.scan(/a/)
+  end
+  final
 end
 
 def sum_array
