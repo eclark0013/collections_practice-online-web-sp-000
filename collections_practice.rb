@@ -38,8 +38,7 @@ end
 
 def find_a(array)
   #final=[]
-  for element in array
-    #final<<
+  array.select do |element|
     element.scan(/\ba.*/)
   end
   #final
