@@ -39,7 +39,7 @@ end
 def find_a(array)
   #final=[]
   array.select do |element|
-    element.scan(/\ba.*/)
+    element.match(/\ba.*/)!=nil
   end
 
 end
