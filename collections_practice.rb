@@ -37,13 +37,12 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  #final=[]
   array.select do |element|
     element.match(/\ba.*/)!=nil
   end
 
 end
 
-def sum_array
+def sum_array(array)
   array.inject(0){ |sum, num| sum + num }
 end
