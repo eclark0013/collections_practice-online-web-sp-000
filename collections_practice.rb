@@ -39,8 +39,9 @@ end
 def find_a(array)
   #final=[]
   array.select do |element|
-    element=="apple"
+    element.scan(/\ba.*/)
   end
+
 end
 
 def sum_array
