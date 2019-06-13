@@ -43,6 +43,3 @@ end
 def sum_array
   array.inject(0){ |sum, num| sum + num }
 end
-
-[1,2].each_with_index.collect do
- if
