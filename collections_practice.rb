@@ -39,7 +39,7 @@ end
 def find_a(array)
   final=[]
   for element in array
-    final<<element.scan(/\ba.*/)
+    final<<element.scan(/\ba.*/)[0]
   end
   final
 end
