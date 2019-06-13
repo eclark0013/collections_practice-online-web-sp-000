@@ -37,11 +37,12 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  final=[]
+  #final=[]
   for element in array
-    final<<element.scan(/\ba.*/)[0]
+    #final<<
+    element.scan(/\ba.*/)
   end
-  final
+  #final
 end
 
 def sum_array
