@@ -41,7 +41,7 @@ def find_a(array)
   array.select do |element|
     element.scan(/\ba.*/)
   end
-  #final
+array
 end
 
 def sum_array
