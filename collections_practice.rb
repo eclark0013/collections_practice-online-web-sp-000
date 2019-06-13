@@ -27,4 +27,12 @@ def swap_elements_from_to(array,i,j)
 end
 
 def reverse_array(array)
-  array.sort{|a,b|array.index(a)<=>array.index(b)}
+  array.sort{|a,b|array.index(b)<=>array.index(a)}
+end
+
+def kesha_maker(array)
+  for element in array
+    element[2]="$"
+  end
+end
+
