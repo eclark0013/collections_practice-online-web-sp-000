@@ -25,4 +25,3 @@ def swap_elements_from_to(array,i,j)
   array[j]=one
   array
 end
-
