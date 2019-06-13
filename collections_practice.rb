@@ -46,3 +46,13 @@ end
 def sum_array(array)
   array.inject(0){ |sum, num| sum + num }
 end
+
+def add_s(array)
+  array.collect do |element|
+    if array.index(element)==1
+      element
+    else 
+      element+"s"
+    end
+  end
+end
