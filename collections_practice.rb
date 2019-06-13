@@ -41,7 +41,6 @@ def find_a(array)
   array.select do |element|
     element=="apple"
   end
-array
 end
 
 def sum_array
